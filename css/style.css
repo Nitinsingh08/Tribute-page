@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.zero-box {
+    background-image: url(../images/greg-schneider-wIku5MsVJi0-unsplash.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    /* position: relative; */
+    mix-blend-mode: darken;
+    box-shadow: 0 0 8px 8px #0e1110 inset;
+}
+
+.title {
+    position: relative;
+    top: 180px;
+}
+
+.box {
+    text-align: center;
+    box-sizing: border-box;
+    color: white;
+}
+
+.box h1 {
+    font-family: "PT Serif", serif;
+    font-weight: 600;
+}
+
+.box p {
+    font-family: "Nunito", sans-serif;
+}
+
+.first-box {
+    color: white;
+    background-color: #0e1110;
+    box-shadow: 0 0 8px 8px #0e1110 inset;
+    padding: 45px 0px;
+}
+
+.first-box h3 {
+    font-family: "Rubik", sans-serif;
+}
+
+.first-box p {
+    font-family: "Nunito", sans-serif;
+}
+
+.header {
+    text-align: center;
+}
+
+.row {
+    padding: 25px 0px;
+}
+
+
+/* FOOTER */
+
+.footer {
+    text-align: center;
+    padding: 15px 0px;
+    background-color: #0e1110;
+    color: white;
+    line-height: 2.5rem;
+}
+
+.footer-link {
+    color: white;
+    padding: 0px 8px;
+}
+
+.footer-link:hover {
+    text-decoration: none;
+}
